@@ -1,54 +1,79 @@
 @media (prefers-color-scheme: dark) {
-    h2, body, a {
-      color:darkgray;
-      text-decoration: none;
+
+    h2,
+    body,
+    a {
+        color: darkgray;
+        text-decoration: none;
     }
-    a:link, a:visited {
-      border-bottom: 0.1px solid gray;
+
+    a:link,
+    a:visited {
+        border-bottom: 0.1px solid gray;
     }
-    .footertext, a.one {
-      color:#333333;
+
+    .footertext,
+    a.one {
+        color: #333333;
     }
-    a.one:link, a.one:visited {
+
+    a.one:link,
+    a.one:visited {
         border-bottom: 0px solid gray;
     }
+
     a:hover {
-      color:gray;
+        color: gray;
     }
+
     body {
-      background-color: black;
+        background-color: black;
     }
-  }
-  @media (prefers-color-scheme: light) {
-    h2, body, a {
-      color:#333333;
-      text-decoration: none;
+}
+
+@media (prefers-color-scheme: light) {
+
+    h2,
+    body,
+    a {
+        color: #333333;
+        text-decoration: none;
     }
-    a:link, a:visited {
-      border-bottom: 0px solid gray;
+
+    a:link,
+    a:visited {
+        border-bottom: 0.1px solid gray;
     }
-    .footertext, a.one {
-      color:#e0e0e0;
+
+    .footertext,
+    a.one {
+        color: #e0e0e0;
     }
-    a.one:link, a.one:visited {
-      text-decoration: none;
+
+    a.one:link,
+    a.one:visited {
+        border-bottom: 0px solid gray;
     }
+
     a:hover {
-      color:gray;
+        color: gray;
     }
+
     body {
-      background-color: white;
+        background-color: white;
     }
-  }
-  body {
+}
+
+body {
     /* font:15px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; */
     /* font-family: 'Courier New', monospace; */
     /* font-family: 'Times New Roman', monospace; */
     font-family: 'Berkeley Mono', monospace;
-  }
- @font-face {
+}
+
+@font-face {
     font-family: 'Berkeley Mono';
     src: url('./fonts/BerkeleyMono-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
- }
+}
