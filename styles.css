@@ -9,7 +9,7 @@
 
     a:link,
     a:visited {
-        border-bottom: 0.1px solid gray;
+        border-bottom: 0.1px solid #444;
     }
 
     .footertext,
@@ -69,6 +69,11 @@ body {
     /* font-family: 'Courier New', monospace; */
     /* font-family: 'Times New Roman', monospace; */
     font-family: 'Berkeley Mono', monospace;
+    line-height: 1.4;
+	font-size: 16px;
+	padding: 0 10px;
+	margin: 50px auto;
+	max-width: 650px;
 }
 
 @font-face {
