@@ -5,14 +5,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, nofollow">
-    <title>BPM</title>
+    <title>Heart rate — Aled Samuel</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="./meta/favicon.ico">
+    <script src="bpm.js" defer></script>
 </head>
 
-<body>
-    <main>
-        <p>Coming soon</p>
+<body class="bpm-page-body">
+    <main class="bpm-page" aria-labelledby="bpm-heading">
+        <h1 id="bpm-heading" class="bpm-heading">Aled's heart rate</h1>
+        <p class="bpm-reading" aria-live="polite" aria-atomic="true">
+            <span id="bpm-value" class="bpm-value">—</span><span class="bpm-unit">bpm</span>
+        </p>
+        <p id="bpm-status" class="bpm-status" role="status" aria-live="polite" aria-atomic="true">Checking…</p>
+        <time id="bpm-time" class="bpm-time"></time>
+        <noscript>JavaScript is required to load the latest reading.</noscript>
     </main>
 </body>
 

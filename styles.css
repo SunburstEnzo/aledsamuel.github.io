@@ -82,3 +82,70 @@ body {
     font-weight: normal;
     font-style: normal;
 }
+
+.bpm-page-body {
+    box-sizing: border-box;
+    min-height: 100vh;
+    max-width: none;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.bpm-page {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.bpm-heading {
+    margin: 0 0 clamp(36px, 8vh, 96px);
+    font-size: clamp(13px, 2vw, 18px);
+    font-weight: normal;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+.bpm-reading {
+    display: inline-flex;
+    align-items: baseline;
+    margin: 0;
+    line-height: 0.8;
+    font-variant-numeric: tabular-nums;
+}
+
+.bpm-value {
+    font-size: clamp(7rem, 30vw, 20rem);
+    letter-spacing: -0.08em;
+}
+
+.bpm-unit {
+    margin-left: 0.08em;
+    font-size: clamp(1.25rem, 4vw, 3rem);
+    letter-spacing: -0.04em;
+    opacity: 0.42;
+}
+
+.bpm-status {
+    margin: clamp(44px, 9vh, 100px) 0 0;
+    font-size: 13px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+.bpm-time {
+    min-height: 1.4em;
+    margin-top: 8px;
+    font-size: 12px;
+    opacity: 0.42;
+}
+
+.bpm-page noscript {
+    margin-top: 24px;
+    font-size: 12px;
+    opacity: 0.6;
+}
